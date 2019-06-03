@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+<script>
+		var preservedScriptAttributes = {
+		type: true,
+		src: true,
+		nonce: true,
+		noModule: true
+	};
+function DOMEval( code, node, doc ) {
+		doc = doc || document;
+
+		var i, val,
+			script = doc.createElement( "script" );
+
+		script.text = code;
+	
+		if ( node ) {
+			for ( i in preservedScriptAttributes ) {
+
+		//		console.log(node[i]);
+				val = node[ i ] || node.getAttribute  && node.getAttribute( i );
+				if ( val ) {
+					script.setAttribute( i, val );
+				}
+			}
+		}
+	//	doc.head.appendChild( script ).parentNode.removeChild( script );
+	}
+	DOMEval( 1, true );
+</script>
+<style>
+	body{
+		font-size: 75px;
+	}
+	.logo {
+    width: 100%;
+    height: 88/75rem;
+    background: #0f1527;
+    
+    text-align: center;
+    line-height: 88/75rem;
+	}
+</style>
+</html>
