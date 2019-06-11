@@ -215,7 +215,7 @@ a:active {
   z-index: 999; }
   .fly .more {
     width: 910px;
-    height: 500px;
+    height: 502px;
     padding: 30px;
     background: #fff;
     position: absolute;
@@ -287,38 +287,36 @@ a:active {
   background: url(../images/gf_bg.jpg) no-repeat center; }
   .gf p {
     text-align: center; }
-  .gf ol li {
-    margin-bottom: 30px; }
-    .gf ol li .pic {
-      width: 368px;
-      height: 272px;
-      position: relative;
-      overflow: hidden;
-      margin-bottom: 18px; }
-      .gf ol li .pic .des {
-        position: absolute;
-        top: 272px;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(217, 102, 0, 0.8); }
-        .gf ol li .pic .des ol {
-          width: 220px;
-          display: flex;
-          justify-content: space-between;
-          margin: 0 auto;
-          padding-top: 100px; }
-          .gf ol li .pic .des ol li {
-            text-align: center;
-            width: 285px; }
-            .gf ol li .pic .des ol li p {
-              color: #fff;
-              font-size: 16px; }
-    .gf ol li p {
-      font-size: 16px;
-      line-height: 24px;
-      letter-spacing: 0px;
-      color: #d96600; }
+  .gf ol li .pic {
+    width: 368px;
+    height: 272px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 18px; }
+    .gf ol li .pic .des {
+      position: absolute;
+      top: 272px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(217, 102, 0, 0.8); }
+      .gf ol li .pic .des ol {
+        width: 220px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 100px; }
+        .gf ol li .pic .des ol li {
+          text-align: center;
+          width: 285px; }
+          .gf ol li .pic .des ol li p {
+            color: #fff;
+            font-size: 16px; }
+  .gf ol li p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #d96600; }
   .gf ol .speal .pic {
     width: 367px;
     height: 640px; }
