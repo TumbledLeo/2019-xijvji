@@ -61,7 +61,24 @@
             </ul>
     </div>
     <div class="banner">
-        <h1 class="wow slideInDown" style=""><img src="images/title.png" alt=""></h1>
+        <h1 class="wow slideInDown" ><img src="images/title.png" alt="" style="margin-left:146px;"></h1>
+        <div class="swiper_father wow slideInDown" style="position: relative;width:700px;margin:0 auto;">
+            <div class="swiper-container swiper-container6" >
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/r1.png" alt=""><p>葛优</p></div>
+                    <div class="swiper-slide"><img src="images/r2.png" alt=""><p>万茜</p></div>
+                    <div class="swiper-slide"><img src="images/r3.png" alt=""><p>沙溢、胡可</p></div>
+                    <div class="swiper-slide"><img src="images/r4.png" alt=""><p>袁泉、王洛勇</p></div>
+                    <!-- <div class="swiper-slide"><img src="images/r5.png" alt=""><p>王洛勇</p></div> -->
+                    <div class="swiper-slide"><img src="images/r6.png" alt=""><p>周涛</p></div>
+                    <div class="swiper-slide"><img src="images/r7.png" alt=""><p>王佩瑜</p></div>
+                    <div class="swiper-slide"><img src="images/r8.png" alt=""><p>史依弘</p></div>
+                </div>
+            </div>
+            <div class="swiper-button-prev swiper-button-prev6"></div>
+            <div class="swiper-button-next swiper-button-next6"></div>
+        </div>
+        
         <h2 class="wow slideInDown" data-wow-delay=".5s">视频推介</h2>
         <a href="javascript:;" data="media/0.mp4"class="video_pri wow slideInDown videos"><img src="images/video.png" alt=""></a>
     </div>
@@ -967,6 +984,10 @@
     <div class="mtzs h2">
         <h2>媒体之声</h2>
         <ul>
+                <li><a href="http://www.chncpa.org/zxdtxlm/jyxw_2994/201906/t20190619_204570.shtml"target="_block"><p><span>国家大剧院微信 </span><span>余少群、程莉莎，跟你的“爱豆”谈恋爱？| 巨有戏  </span><span> 2019/06/18</span></p></a></li>
+                <li><a href="http://www.chncpa.org/zxdtxlm/jyxw_2994/201906/t20190619_204570.shtml"target="_block"><p><span>国家大剧院 </span><span>国家大剧院制作话剧《风雪夜归人》开启十轮热演 </span><span> 2019/06/18</span></p></a></li>
+                
+
                 <li><a href="http://www.chncpa.org/zxdtxlm/jyxw_2994/201906/t20190607_203794.shtml"target="_block"><p><span>国家大剧院 </span><span>铃木忠志携《李尔王》启幕2019国际戏剧季</span><span> 2019/06/06</span></p></a></li>
                 <li><a href="http://www.chncpa.org/zxdtxlm/jyxw_2994/201906/t20190605_203627.shtml"target="_block"><p><span>国家大剧院 </span><span>话剧《李尔王》揭幕2019国家大剧院国际戏剧季 </span><span> 2019/06/05</span></p></a></li>
                 <li><a href="http://www.chncpa.org/zxdtxlm/jyxw_2994/201905/t20190531_203269.shtml"target="_block"><p><span>国家大剧院 </span><span>2019国家大剧院国际戏剧季将展“泱泱国风” </span><span> 2019/05/31</span></p></a></li>
@@ -1070,6 +1091,16 @@
     var mySwiper = new Swiper('.swiper-container5', {
 	autoplay: true,//可选选项，自动滑动
     loop:true
+})
+var mySwiper = new Swiper('.swiper-container6', {
+	autoplay: false,//可选选项，自动滑动
+    loop:true,
+    navigation: {
+      nextEl: '.swiper-button-next6',
+      prevEl: '.swiper-button-prev6',
+    },
+    slidesPerView: 4,
+    // slidesPerGroup : 4,
 })
 </script>
 <script>

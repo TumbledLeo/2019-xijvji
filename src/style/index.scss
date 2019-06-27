@@ -127,7 +127,7 @@ a:active{
   .video_pri{
     display: block;
     margin:30px auto;
-    width:517px;
+    width:369px;
   }
 }
 .h2{
@@ -465,9 +465,9 @@ a:active{
   }
 }
 .mtzs{
-  width:100%;height:737px;
+  width:100%;height:940px;
   padding-top:70px;
-  background:url(../images/mtzs_bg.jpg)no-repeat center;
+  background:url(../images/mtzs_bg.png)no-repeat  center;
   ul{
     width:1000px;
     margin:0 auto;
@@ -535,3 +535,29 @@ footer{
 // ::-webkit-scrollbar {/*滚动条整体样式*/
 //   margin-left:10px;
 // }
+.swiper-container6{
+  width:600px;
+  margin:20px auto;
+  p{
+    text-align: center;
+    color:#fff;
+    font-size: 18px;
+  }
+  .swiper-slide{
+    text-align: center;
+  }
+}
+.swiper-button-next{
+  width:32px;
+  height:58px;
+  background:url(../images/right.png)no-repeat;
+  outline: none;
+  margin-top:-40px;
+}
+.swiper-button-prev{
+  margin-top:-40px;
+  width:32px;
+  height:58px;
+  outline: none;
+  background:url(../images/left.png)no-repeat;
+}
